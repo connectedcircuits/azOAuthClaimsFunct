@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+
+    "OAuth_ServerEndpoint": "https://login.microsoftonline.com/<add-your-tentantId>/", // "Application ID" from Azure AD app registration
+    "OAuth_Issuer": "https://sts.windows.net/<add-your-tentantId>/",
+    "OAuth_Audiences": "api://189f0961-ba0f-4a5e-93c1-7f71a10b1a13"
+
+  }
+}
